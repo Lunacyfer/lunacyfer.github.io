@@ -22,8 +22,8 @@
       sizes="16x16"
       href="../img/favicon-16x16.png" />
     <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon.png" />
-    <meta name="author" content="Holger Koenemann" />
-    <meta name="generator" content="Eleventy v2.0.0" />
+    <meta name="author" content="Gaspare Frazzitta" />
+    <meta name="generator" content="brain" />
     <meta name="HandheldFriendly" content="true" />
     <!-- TemplateBeginEditable name="doctitle" -->
     <title>Gaspare Frazzitta Product UI UX Designer Portfolio</title>
@@ -110,7 +110,7 @@ url("../fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3
             <a
               class="nav-link fs-6"
               href="about.html"
-              aria-label="A sample content page">
+              aria-label="About me page">
               About me
             </a>
           </li>
@@ -133,9 +133,9 @@ url("../fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3
       <div class="container-fluid px-vw-5 position-relative" data-aos="fade">
         <div class="position-absolute w-100 bg-black top-0 start-0"></div>
         <div class="p-5 pt-0 mt-5" data-aos="fade">
-          <span class="h5 text-secondary fw-lighter">What we don´t know</span>
+          <span class="h5 text-secondary fw-lighter">This is your title</span>
           <h2 class="display-4">
-            There is a lot we don´t know. Here is a small sneak peek
+            And you might want a subtitle
           </h2>
         </div>
       </div>
@@ -168,7 +168,7 @@ url("../fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3
             <span class="h6">Highlights</span>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a href="peekaboo.html" class="link-fancy link-fancy-light">Pekaboo</a>
+                <a href="peekaboo.html" class="link-fancy link-fancy-light">Peekaboo</a>
               </li>
               <li class="nav-item">
                 <a href="zego-sense.html" class="link-fancy link-fancy-light">Zego Sense</a>
