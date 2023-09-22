@@ -70,15 +70,7 @@ url("fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+
       }
     </style>
   <!-- InstanceBeginEditable name="head" -->
-    <script>
-      // Script to enable automatic looping
-      $(document).ready(function () {
-        $("#imageCarousel").carousel({
-          interval: 2000, // Adjust the interval time in milliseconds (2 seconds in this example)
-          cycle: true, // Enable looping
-        });
-      });
-    </script>
+
     <!-- InstanceEndEditable -->
   </head>
 
@@ -430,8 +422,7 @@ url("fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+
                 <div class="bg-dark shadow rounded-5 p-0">
                   <div
                     id="imageCarousel"
-                    class="carousel slide"
-                    data-ride="carousel">
+                    class="carousel slide">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img
@@ -639,7 +630,17 @@ url("fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+
     </script>	  
 	  
 	  <!-- InstanceBeginEditable name="ScriptsRegion" -->
-	  
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+    crossorigin="anonymous"></script>
+     
+    <script>
+      // Script to enable automatic looping
+      $(document).ready(function () {
+        $("#imageCarousel").carousel('cycle');
+      });
+    </script>
 	  <!-- InstanceEndEditable -->
   </body>
 <!-- InstanceEnd --></html>
